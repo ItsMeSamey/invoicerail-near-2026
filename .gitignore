@@ -1,0 +1,8 @@
+node_modules/
+contracts/target/
+.tmp/
+*.local
+.env
+.env.*
+.near-credentials/
+artifacts/*.log

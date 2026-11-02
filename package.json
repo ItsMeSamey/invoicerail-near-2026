@@ -1,0 +1,17 @@
+{
+  "name": "invoicerail",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:contracts": "RUSTFLAGS='-C target-feature=-bulk-memory,-reference-types,-multivalue' cargo +1.86.0 build --manifest-path contracts/Cargo.toml --target wasm32-unknown-unknown --release --locked",
+    "test": "node --test test/*.test.mjs",
+    "test:sandbox": "node scripts/sandbox.mjs",
+    "demo": "node scripts/server.mjs",
+    "statement": "node scripts/statement.mjs",
+    "test:statement": "node --test test/settlement-statement.test.mjs"
+  },
+  "devDependencies": {
+    "near-workspaces": "5.0.0"
+  }
+}

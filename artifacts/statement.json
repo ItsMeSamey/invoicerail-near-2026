@@ -1,0 +1,645 @@
+{
+  "schemaVersion": "1.0.0",
+  "network": "local-sandbox",
+  "contract": "invoicerail.test.near",
+  "asset": {
+    "tokenContract": "usd-demo.test.near",
+    "symbol": "Demo USD",
+    "decimals": 6,
+    "localFixture": true,
+    "metadataSource": "Explicit local fixture display convention; not fetched token metadata or a real stablecoin"
+  },
+  "asOf": {
+    "timestampNs": "1793190374575937194",
+    "sequence": "17",
+    "meaning": "Last included invoice receipt timestamp; not current time or report creation time"
+  },
+  "sourceReportGeneratedAt": "2026-10-28T12:22:21.661Z",
+  "evidenceBasis": "Recorded finalized RPC outcomes and token events; trusted local fixture evidence, not independent cryptographic proofs or a fresh balance query",
+  "invoices": [
+    {
+      "id": "INV-2026-001",
+      "payer": "customer.test.near",
+      "status": "paid",
+      "expiresNs": "9999999999999999999",
+      "amounts": {
+        "due": {
+          "raw": "125000000",
+          "formatted": "125.000000"
+        },
+        "received": {
+          "raw": "125000000",
+          "formatted": "125.000000"
+        },
+        "outstanding": {
+          "raw": "0",
+          "formatted": "0.000000"
+        },
+        "withdrawn": {
+          "raw": "125000000",
+          "formatted": "125.000000"
+        },
+        "pending": {
+          "raw": "0",
+          "formatted": "0.000000"
+        },
+        "available": {
+          "raw": "0",
+          "formatted": "0.000000"
+        }
+      },
+      "provenance": [
+        {
+          "sequence": "1",
+          "event": "invoice_created",
+          "timestampNs": "1793190163381271630",
+          "transaction": "BESs7fdnkpUMC2zxV4UuXfP5X9UeB8pJTj4uB49HGFJP",
+          "receipt": "3oWLiszceDMNUNuYGAi2vyS7yNVqi6xE5C66kNRLEZfB",
+          "eventKey": "3oWLiszceDMNUNuYGAi2vyS7yNVqi6xE5C66kNRLEZfB:0"
+        },
+        {
+          "sequence": "2",
+          "event": "payment_received",
+          "timestampNs": "1793190167630118549",
+          "transaction": "9xeAgmexsMWdSB6TLR6sERScFHkjBhbQ9dWt61dfax3S",
+          "receipt": "8DQKFnYZhQ2VxduR5MSjumARMYdh7xuYw5sBzMBaVbvh",
+          "eventKey": "8DQKFnYZhQ2VxduR5MSjumARMYdh7xuYw5sBzMBaVbvh:0"
+        },
+        {
+          "sequence": "3",
+          "event": "payment_received",
+          "timestampNs": "1793190172519232488",
+          "transaction": "DctYbiryiQ4iN3iKDf6cB25aa75gqWu6xjwdMH9EnFGZ",
+          "receipt": "J2EeK2r6BizRrwcrfeN3Ve2yoaqAH6kQy3qEU9szY7oY",
+          "eventKey": "J2EeK2r6BizRrwcrfeN3Ve2yoaqAH6kQy3qEU9szY7oY:0"
+        },
+        {
+          "sequence": "4",
+          "event": "payment_received",
+          "timestampNs": "1793190177393686953",
+          "transaction": "8kUVnWpqJud13ujQxXfPih8ympbk11nCjpibRZ2A3pjT",
+          "receipt": "7vAqVxzsCa1ev756WCFyLqWHP7hZJGuMAUkX5VggFMHR",
+          "eventKey": "7vAqVxzsCa1ev756WCFyLqWHP7hZJGuMAUkX5VggFMHR:0"
+        },
+        {
+          "sequence": "5",
+          "event": "withdrawal_started",
+          "timestampNs": "1793190181670867653",
+          "transaction": "8HuriMKiWp9AqDwq5JSgpi7J3XUYQ1eZFFU86QKcBFdQ",
+          "receipt": "EEXwNcNZAdGvA5kSPcYovbTb1Zi94x8aeVCnruQVzQcw",
+          "eventKey": "EEXwNcNZAdGvA5kSPcYovbTb1Zi94x8aeVCnruQVzQcw:0"
+        },
+        {
+          "sequence": "6",
+          "event": "withdrawal_failed",
+          "timestampNs": "1793190182885319288",
+          "transaction": "8HuriMKiWp9AqDwq5JSgpi7J3XUYQ1eZFFU86QKcBFdQ",
+          "receipt": "3LdbRUpaA6j8XrchzrTTCrXW1osWLQkEhFnADRwDGkT2",
+          "eventKey": "3LdbRUpaA6j8XrchzrTTCrXW1osWLQkEhFnADRwDGkT2:0"
+        },
+        {
+          "sequence": "7",
+          "event": "withdrawal_started",
+          "timestampNs": "1793190188998130516",
+          "transaction": "CKWxDGSpHeBKdXebq9TQ5aPDLQ37w3e6gY3i2K9Qj5c3",
+          "receipt": "24FocvZLVbLBStU3G2DaQZ5oFdsvtGsQDKmMrBKn41ch",
+          "eventKey": "24FocvZLVbLBStU3G2DaQZ5oFdsvtGsQDKmMrBKn41ch:0"
+        },
+        {
+          "sequence": "8",
+          "event": "withdrawal_completed",
+          "timestampNs": "1793190190243654850",
+          "transaction": "CKWxDGSpHeBKdXebq9TQ5aPDLQ37w3e6gY3i2K9Qj5c3",
+          "receipt": "LCwF5YZNxcVmXLp39kmxrNrJe6UvrMvhWmMfWQEJzZ8",
+          "eventKey": "LCwF5YZNxcVmXLp39kmxrNrJe6UvrMvhWmMfWQEJzZ8:0"
+        }
+      ]
+    },
+    {
+      "id": "INV-2026-002",
+      "payer": "customer.test.near",
+      "status": "cancelled",
+      "expiresNs": "9999999999999999999",
+      "amounts": {
+        "due": {
+          "raw": "80000000",
+          "formatted": "80.000000"
+        },
+        "received": {
+          "raw": "0",
+          "formatted": "0.000000"
+        },
+        "outstanding": {
+          "raw": "80000000",
+          "formatted": "80.000000"
+        },
+        "withdrawn": {
+          "raw": "0",
+          "formatted": "0.000000"
+        },
+        "pending": {
+          "raw": "0",
+          "formatted": "0.000000"
+        },
+        "available": {
+          "raw": "0",
+          "formatted": "0.000000"
+        }
+      },
+      "provenance": [
+        {
+          "sequence": "9",
+          "event": "invoice_created",
+          "timestampNs": "1793190196335348167",
+          "transaction": "CzZPZivQQkTjiTNG8a4zu8uj1cKLs9WwFJSCUPe4uEiD",
+          "receipt": "DsB3dTVLcZqPmbnXjrB2cruMT7oKe9RWDhhCFSydx8rC",
+          "eventKey": "DsB3dTVLcZqPmbnXjrB2cruMT7oKe9RWDhhCFSydx8rC:0"
+        },
+        {
+          "sequence": "10",
+          "event": "payment_rejected",
+          "timestampNs": "1793190200585299845",
+          "transaction": "6cVL7QBHMQxnjXrqGtRtz6D97hup19V2ThYSTULPiidA",
+          "receipt": "Hq4NpsuPyb6S8KKxAx1ccFtuoY8ZWB4CETx5vC5sBJEz",
+          "eventKey": "Hq4NpsuPyb6S8KKxAx1ccFtuoY8ZWB4CETx5vC5sBJEz:0"
+        },
+        {
+          "sequence": "12",
+          "event": "invoice_cancelled",
+          "timestampNs": "1793190209717766194",
+          "transaction": "HayRsdboeW9UWWFFExd5n4bBbpovAiyhUDah55p2en8C",
+          "receipt": "62nYaFMYhfGrkRzKqyg5xdponW5CU7UfCU14cpbqBnSd",
+          "eventKey": "62nYaFMYhfGrkRzKqyg5xdponW5CU7UfCU14cpbqBnSd:0"
+        },
+        {
+          "sequence": "13",
+          "event": "payment_rejected",
+          "timestampNs": "1793190213978713492",
+          "transaction": "FELmx1XorxYnUydWDY2M8PamLuhL1UTUW3RNRpx3LZ3h",
+          "receipt": "9cz6YgSmZiWPBytPF9zLArQVE5BHkneibeBvAs93DMDY",
+          "eventKey": "9cz6YgSmZiWPBytPF9zLArQVE5BHkneibeBvAs93DMDY:0"
+        }
+      ]
+    },
+    {
+      "id": "INV-2026-003",
+      "payer": "customer.test.near",
+      "status": "partial",
+      "expiresNs": "9999999999999999999",
+      "amounts": {
+        "due": {
+          "raw": "30000000",
+          "formatted": "30.000000"
+        },
+        "received": {
+          "raw": "10000000",
+          "formatted": "10.000000"
+        },
+        "outstanding": {
+          "raw": "20000000",
+          "formatted": "20.000000"
+        },
+        "withdrawn": {
+          "raw": "0",
+          "formatted": "0.000000"
+        },
+        "pending": {
+          "raw": "0",
+          "formatted": "0.000000"
+        },
+        "available": {
+          "raw": "10000000",
+          "formatted": "10.000000"
+        }
+      },
+      "provenance": [
+        {
+          "sequence": "14",
+          "event": "invoice_created",
+          "timestampNs": "1793190226749509145",
+          "transaction": "H6iei8pRcV8aWM9imF1zUpt2F61zxTyKWDdeK7tEuw9f",
+          "receipt": "GqKKB2d3DjtTnq8J5TjSyv2aAyQFTLC6kPAUm1zsYtwY",
+          "eventKey": "GqKKB2d3DjtTnq8J5TjSyv2aAyQFTLC6kPAUm1zsYtwY:0"
+        },
+        {
+          "sequence": "15",
+          "event": "payment_received",
+          "timestampNs": "1793190230996295942",
+          "transaction": "B9cCtvnuCJCnmqnHYHzJkJk69PwHFYhDVJnmd5scsF5n",
+          "receipt": "7mTgYdgdneTEWNR1AmLS5eoUAZZNUUCq9JrxnxityUQ3",
+          "eventKey": "7mTgYdgdneTEWNR1AmLS5eoUAZZNUUCq9JrxnxityUQ3:0"
+        }
+      ]
+    },
+    {
+      "id": "INV-2026-004",
+      "payer": "customer.test.near",
+      "status": "expired",
+      "expiresNs": "1793190249640716094",
+      "amounts": {
+        "due": {
+          "raw": "20000000",
+          "formatted": "20.000000"
+        },
+        "received": {
+          "raw": "0",
+          "formatted": "0.000000"
+        },
+        "outstanding": {
+          "raw": "20000000",
+          "formatted": "20.000000"
+        },
+        "withdrawn": {
+          "raw": "0",
+          "formatted": "0.000000"
+        },
+        "pending": {
+          "raw": "0",
+          "formatted": "0.000000"
+        },
+        "available": {
+          "raw": "0",
+          "formatted": "0.000000"
+        }
+      },
+      "provenance": [
+        {
+          "sequence": "16",
+          "event": "invoice_created",
+          "timestampNs": "1793190237675546464",
+          "transaction": "4xGftR7QWdNATKm3Ut7MqxdhoSgBpihP2v94Xzm16oP9",
+          "receipt": "4pg98VuVzbjY8SyS2ekkvvkCrymkATLMj8PLKDPviizP",
+          "eventKey": "4pg98VuVzbjY8SyS2ekkvvkCrymkATLMj8PLKDPviizP:0"
+        },
+        {
+          "sequence": "17",
+          "event": "payment_rejected",
+          "timestampNs": "1793190374575937194",
+          "transaction": "JBYAHENqcdFqqNFHvxLTVstQf5Ed8kj6LPbKk9rJPp4b",
+          "receipt": "7weWCPZufzM4snzvhP5RcfiqzYwr537Bznb617AuRRgt",
+          "eventKey": "7weWCPZufzM4snzvhP5RcfiqzYwr537Bznb617AuRRgt:0"
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "invoiceId": "INV-2026-001",
+      "payer": "customer.test.near",
+      "kind": "payment_received",
+      "rejectionReason": null,
+      "offered": {
+        "raw": "40000000",
+        "formatted": "40.000000"
+      },
+      "accepted": {
+        "raw": "40000000",
+        "formatted": "40.000000"
+      },
+      "requestedUnused": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "observedReturned": null,
+      "unresolvedReturn": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "returnStatus": "not_requested",
+      "returnExplanation": "No return requested; no positive return movement is asserted",
+      "returnEvidenceType": "none",
+      "independentPayerBalanceDeltaVerified": false,
+      "provenance": {
+        "payment": {
+          "sequence": "2",
+          "event": "payment_received",
+          "timestampNs": "1793190167630118549",
+          "transaction": "9xeAgmexsMWdSB6TLR6sERScFHkjBhbQ9dWt61dfax3S",
+          "receipt": "8DQKFnYZhQ2VxduR5MSjumARMYdh7xuYw5sBzMBaVbvh",
+          "eventKey": "8DQKFnYZhQ2VxduR5MSjumARMYdh7xuYw5sBzMBaVbvh:0"
+        },
+        "returnMovement": null
+      }
+    },
+    {
+      "invoiceId": "INV-2026-001",
+      "payer": "customer.test.near",
+      "kind": "payment_received",
+      "rejectionReason": null,
+      "offered": {
+        "raw": "100000000",
+        "formatted": "100.000000"
+      },
+      "accepted": {
+        "raw": "85000000",
+        "formatted": "85.000000"
+      },
+      "requestedUnused": {
+        "raw": "15000000",
+        "formatted": "15.000000"
+      },
+      "observedReturned": {
+        "raw": "15000000",
+        "formatted": "15.000000"
+      },
+      "unresolvedReturn": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "returnStatus": "observed",
+      "returnExplanation": "Observed matching NEP-141 return in the linked successful token resolver receipt",
+      "returnEvidenceType": "finalized_token_transfer_event",
+      "independentPayerBalanceDeltaVerified": false,
+      "provenance": {
+        "payment": {
+          "sequence": "3",
+          "event": "payment_received",
+          "timestampNs": "1793190172519232488",
+          "transaction": "DctYbiryiQ4iN3iKDf6cB25aa75gqWu6xjwdMH9EnFGZ",
+          "receipt": "J2EeK2r6BizRrwcrfeN3Ve2yoaqAH6kQy3qEU9szY7oY",
+          "eventKey": "J2EeK2r6BizRrwcrfeN3Ve2yoaqAH6kQy3qEU9szY7oY:0"
+        },
+        "returnMovement": {
+          "initialTokenReceipt": "AP12fAR2zpCpnbpKr5fg9xxJPWecqZfw3QmLoYqi96kD",
+          "receiverReceipt": "J2EeK2r6BizRrwcrfeN3Ve2yoaqAH6kQy3qEU9szY7oY",
+          "resolverReceipt": "9csqoUgJrYh6uCGnwEXN9k5puP1sNHH2F8hJ2oSZW2C5",
+          "resolverLogIndex": 0,
+          "resolverDataIndex": 0
+        }
+      }
+    },
+    {
+      "invoiceId": "INV-2026-001",
+      "payer": "customer.test.near",
+      "kind": "payment_received",
+      "rejectionReason": null,
+      "offered": {
+        "raw": "1000000",
+        "formatted": "1.000000"
+      },
+      "accepted": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "requestedUnused": {
+        "raw": "1000000",
+        "formatted": "1.000000"
+      },
+      "observedReturned": {
+        "raw": "1000000",
+        "formatted": "1.000000"
+      },
+      "unresolvedReturn": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "returnStatus": "observed",
+      "returnExplanation": "Observed matching NEP-141 return in the linked successful token resolver receipt",
+      "returnEvidenceType": "finalized_token_transfer_event",
+      "independentPayerBalanceDeltaVerified": false,
+      "provenance": {
+        "payment": {
+          "sequence": "4",
+          "event": "payment_received",
+          "timestampNs": "1793190177393686953",
+          "transaction": "8kUVnWpqJud13ujQxXfPih8ympbk11nCjpibRZ2A3pjT",
+          "receipt": "7vAqVxzsCa1ev756WCFyLqWHP7hZJGuMAUkX5VggFMHR",
+          "eventKey": "7vAqVxzsCa1ev756WCFyLqWHP7hZJGuMAUkX5VggFMHR:0"
+        },
+        "returnMovement": {
+          "initialTokenReceipt": "GBq6GRzs5bgNRCiVSzkTbZWtXDZvneT6CkmcbSFMNA3Q",
+          "receiverReceipt": "7vAqVxzsCa1ev756WCFyLqWHP7hZJGuMAUkX5VggFMHR",
+          "resolverReceipt": "9CRitqD85NKiYvYgu6voynLxcsgu4NzEZmP5zecR5nY8",
+          "resolverLogIndex": 0,
+          "resolverDataIndex": 0
+        }
+      }
+    },
+    {
+      "invoiceId": "INV-2026-002",
+      "payer": "other.test.near",
+      "kind": "payment_rejected",
+      "rejectionReason": "wrong_payer",
+      "offered": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "accepted": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "requestedUnused": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "observedReturned": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "unresolvedReturn": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "returnStatus": "observed",
+      "returnExplanation": "Observed matching NEP-141 return in the linked successful token resolver receipt",
+      "returnEvidenceType": "finalized_token_transfer_event",
+      "independentPayerBalanceDeltaVerified": false,
+      "provenance": {
+        "payment": {
+          "sequence": "10",
+          "event": "payment_rejected",
+          "timestampNs": "1793190200585299845",
+          "transaction": "6cVL7QBHMQxnjXrqGtRtz6D97hup19V2ThYSTULPiidA",
+          "receipt": "Hq4NpsuPyb6S8KKxAx1ccFtuoY8ZWB4CETx5vC5sBJEz",
+          "eventKey": "Hq4NpsuPyb6S8KKxAx1ccFtuoY8ZWB4CETx5vC5sBJEz:0"
+        },
+        "returnMovement": {
+          "initialTokenReceipt": "87KZeaxLWu4NLhBHmvr3jdHYF5qpHeBTPAF3UUJhdaer",
+          "receiverReceipt": "Hq4NpsuPyb6S8KKxAx1ccFtuoY8ZWB4CETx5vC5sBJEz",
+          "resolverReceipt": "ji3wzBVtaKuoRLku5RZcLBdggXWPeFss7AU9uAE328Y",
+          "resolverLogIndex": 0,
+          "resolverDataIndex": 0
+        }
+      }
+    },
+    {
+      "invoiceId": "MISSING",
+      "payer": "customer.test.near",
+      "kind": "payment_rejected",
+      "rejectionReason": "unknown_invoice",
+      "offered": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "accepted": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "requestedUnused": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "observedReturned": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "unresolvedReturn": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "returnStatus": "observed",
+      "returnExplanation": "Observed matching NEP-141 return in the linked successful token resolver receipt",
+      "returnEvidenceType": "finalized_token_transfer_event",
+      "independentPayerBalanceDeltaVerified": false,
+      "provenance": {
+        "payment": {
+          "sequence": "11",
+          "event": "payment_rejected",
+          "timestampNs": "1793190205457252855",
+          "transaction": "GvQ467fLU4uw39WwJwq72MBNDNqprEUukf2DEzdZzP1M",
+          "receipt": "J1eHLtZJ4db4n1L7ZA7iKTWZQp9uyNTsAdRcVDvSdnnx",
+          "eventKey": "J1eHLtZJ4db4n1L7ZA7iKTWZQp9uyNTsAdRcVDvSdnnx:0"
+        },
+        "returnMovement": {
+          "initialTokenReceipt": "8oCdxEtutpk1fXEAaNtuGvzWMHWr75QrHPvxh7xJbpzL",
+          "receiverReceipt": "J1eHLtZJ4db4n1L7ZA7iKTWZQp9uyNTsAdRcVDvSdnnx",
+          "resolverReceipt": "jcDHRXTkvFDprrC8UZtRjJoVUKA2rUbX4yvk3x3nf9p",
+          "resolverLogIndex": 0,
+          "resolverDataIndex": 0
+        }
+      }
+    },
+    {
+      "invoiceId": "INV-2026-002",
+      "payer": "customer.test.near",
+      "kind": "payment_rejected",
+      "rejectionReason": "cancelled",
+      "offered": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "accepted": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "requestedUnused": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "observedReturned": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "unresolvedReturn": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "returnStatus": "observed",
+      "returnExplanation": "Observed matching NEP-141 return in the linked successful token resolver receipt",
+      "returnEvidenceType": "finalized_token_transfer_event",
+      "independentPayerBalanceDeltaVerified": false,
+      "provenance": {
+        "payment": {
+          "sequence": "13",
+          "event": "payment_rejected",
+          "timestampNs": "1793190213978713492",
+          "transaction": "FELmx1XorxYnUydWDY2M8PamLuhL1UTUW3RNRpx3LZ3h",
+          "receipt": "9cz6YgSmZiWPBytPF9zLArQVE5BHkneibeBvAs93DMDY",
+          "eventKey": "9cz6YgSmZiWPBytPF9zLArQVE5BHkneibeBvAs93DMDY:0"
+        },
+        "returnMovement": {
+          "initialTokenReceipt": "3LFed4zT25hqvqCavytoft3JuWWFNnBrPf2qVwxHiFyb",
+          "receiverReceipt": "9cz6YgSmZiWPBytPF9zLArQVE5BHkneibeBvAs93DMDY",
+          "resolverReceipt": "J2TetEdS4NqYk64i9u4uaJKdHEqrYvtiHFcNLG2HaHxp",
+          "resolverLogIndex": 0,
+          "resolverDataIndex": 0
+        }
+      }
+    },
+    {
+      "invoiceId": "INV-2026-003",
+      "payer": "customer.test.near",
+      "kind": "payment_received",
+      "rejectionReason": null,
+      "offered": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "accepted": {
+        "raw": "10000000",
+        "formatted": "10.000000"
+      },
+      "requestedUnused": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "observedReturned": null,
+      "unresolvedReturn": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "returnStatus": "not_requested",
+      "returnExplanation": "No return requested; no positive return movement is asserted",
+      "returnEvidenceType": "none",
+      "independentPayerBalanceDeltaVerified": false,
+      "provenance": {
+        "payment": {
+          "sequence": "15",
+          "event": "payment_received",
+          "timestampNs": "1793190230996295942",
+          "transaction": "B9cCtvnuCJCnmqnHYHzJkJk69PwHFYhDVJnmd5scsF5n",
+          "receipt": "7mTgYdgdneTEWNR1AmLS5eoUAZZNUUCq9JrxnxityUQ3",
+          "eventKey": "7mTgYdgdneTEWNR1AmLS5eoUAZZNUUCq9JrxnxityUQ3:0"
+        },
+        "returnMovement": null
+      }
+    },
+    {
+      "invoiceId": "INV-2026-004",
+      "payer": "customer.test.near",
+      "kind": "payment_rejected",
+      "rejectionReason": "expired",
+      "offered": {
+        "raw": "20000000",
+        "formatted": "20.000000"
+      },
+      "accepted": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "requestedUnused": {
+        "raw": "20000000",
+        "formatted": "20.000000"
+      },
+      "observedReturned": {
+        "raw": "20000000",
+        "formatted": "20.000000"
+      },
+      "unresolvedReturn": {
+        "raw": "0",
+        "formatted": "0.000000"
+      },
+      "returnStatus": "observed",
+      "returnExplanation": "Observed matching NEP-141 return in the linked successful token resolver receipt",
+      "returnEvidenceType": "finalized_token_transfer_event",
+      "independentPayerBalanceDeltaVerified": false,
+      "provenance": {
+        "payment": {
+          "sequence": "17",
+          "event": "payment_rejected",
+          "timestampNs": "1793190374575937194",
+          "transaction": "JBYAHENqcdFqqNFHvxLTVstQf5Ed8kj6LPbKk9rJPp4b",
+          "receipt": "7weWCPZufzM4snzvhP5RcfiqzYwr537Bznb617AuRRgt",
+          "eventKey": "7weWCPZufzM4snzvhP5RcfiqzYwr537Bznb617AuRRgt:0"
+        },
+        "returnMovement": {
+          "initialTokenReceipt": "CxX8smM1XuhFrUPZRZqGtzCzad8rNbgbBbu93Qs6WZkn",
+          "receiverReceipt": "7weWCPZufzM4snzvhP5RcfiqzYwr537Bznb617AuRRgt",
+          "resolverReceipt": "8A7LQVaTFW8orTYcwKtWK55j2Wc2HxgnEcZskugvZGng",
+          "resolverLogIndex": 0,
+          "resolverDataIndex": 0
+        }
+      }
+    }
+  ]
+}
